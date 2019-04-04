@@ -17,6 +17,6 @@ module "kubernetes" {
   cluster_id      = "kubernetes-cluster-${var.region}"
 }
 
-output "bastion-public_ip" {
-  value = "${module.kubernetes.bastion-public_ip}"
-}
+# output "bastion-public_ip" {
+  # value = "${module.kubernetes.bastion-public_ip}"
+# }
